@@ -1,0 +1,14 @@
+{
+  "name": "json-resume-page",
+  "version": "1.0.0",
+  "description": "My professional resume built with JSON Resume and resumed",
+  "main": "dist/index.html",
+  "scripts": {
+    "validate": "resumed validate resume.json",
+    "build": "mkdir -p dist && resumed render resume.json -o dist/index.html -t jsonresume-theme-developer-mono/dist"
+  },
+  "dependencies": {
+    "jsonresume-theme-developer-mono": "^0.2.3",
+    "resumed": "^6.1.0"
+  }
+}
