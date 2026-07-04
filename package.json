@@ -5,10 +5,10 @@
   "main": "dist/index.html",
   "scripts": {
     "validate": "resumed validate resume.json",
-    "build": "mkdir -p dist && resumed render resume.json -o dist/index.html -t jsonresume-theme-developer-mono/dist"
+    "build": "mkdir -p dist && resumed render resume.json -o dist/index.html -t jsonresume-theme-architects-portfolio/dist"
   },
   "dependencies": {
-    "jsonresume-theme-developer-mono": "^0.2.3",
+    "jsonresume-theme-architects-portfolio": "^1.1.3",
     "resumed": "^6.1.0"
   }
 }
