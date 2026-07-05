@@ -1,10 +1,17 @@
 {
     "frontend": {
         "source": "resumes/frontend.json",
-        "theme": "jsonresume-theme-architects-portfolio/dist"
+        "theme": "jsonresume-theme-architects-portfolio/dist",
+        "urlPath": "810b776c2623ee4e"
     },
     "fullstack": {
         "source": "resumes/fullstack.json",
-        "theme": "jsonresume-theme-architects-portfolio/dist"
+        "theme": "jsonresume-theme-architects-portfolio/dist",
+        "urlPath": "21d49c414dff6071"
+    },
+    "fullstack-typewriter": {
+        "source": "resumes/fullstack.json",
+        "theme": "jsonresume-theme-typewriter-modern/dist",
+        "urlPath": "3855e646e523"
     }
 }
