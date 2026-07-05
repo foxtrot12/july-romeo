@@ -1,0 +1,225 @@
+{
+    "basics": {
+        "name": "Chinmaya Sharma",
+        "label": "Software Engineer",
+        "email": "chinmayasharma@aol.com",
+        "phone": "+91 9873526069",
+        "url": "https://chini.vercel.app/",
+        "summary": "Software Engineer with over 4 years of experience building high-performance web applications, microfrontends, and accessible user interfaces. Proven track record in optimizing application stability, leading migrations, and creating reusable library ecosystems.",
+        "location": {
+            "city": "Gurgaon",
+            "region": "Haryana",
+            "countryCode": "IN"
+        },
+        "profiles": []
+    },
+    "work": [
+        {
+            "name": "Prudent Insurance Brokers Ltd",
+            "position": "Software Engineer 2",
+            "startDate": "2025-10",
+            "highlights": [
+                "Contribute to Prudent's latest platform serving thousands of clients domestically and internationally",
+                "Guide junior developers through technical issues",
+                "Provide technical input to design and product teams for viability of new features"
+            ]
+        },
+        {
+            "name": "SHL India",
+            "position": "Software Engineer",
+            "startDate": "2024-03",
+            "endDate": "2025-09",
+            "highlights": [
+                "Contributed to the development of SHL's AI Screener (SIA), currently in limited release and used by ~500 candidates monthly.",
+                "Assumed increased leadership responsibilities as a Software Engineer, mentoring 4 developers and driving improvements across multiple projects.",
+                "Achieved AAA WCAG compliance across 11 SHL products by implementing accessibility patterns, significantly improving usability for diverse user groups.",
+                "Led the initiative to remove vulnerabilities from 12 legacy products, enabling successful client-side security scans that had previously failed.",
+                "Developed 6 new assessments for the TC+ platform and streamlined the CI/CD pipeline to enhance build reliability and reduce deployment friction."
+            ]
+        },
+        {
+            "name": "SHL India",
+            "position": "Associate Software Engineer",
+            "startDate": "2022-01",
+            "endDate": "2024-03",
+            "highlights": [
+                "Played a pivotal role in launching TC Plus, a new assessments platform adopted by 300+ enterprise clients.",
+                "Design and develop media-rich assessments to improve candidate engagement and assessment quality.",
+                "Led development of Process Monitoring, a simulation-based assessment now used across three industry sectors.",
+                "Directed migration of 8 applications from AngularJS to Angular and React, improving performance and maintainability.",
+                "Enhanced accessibility across platforms in alignment with WCAG guidelines.",
+                "Created ATOM, a reusable form management library adopted across 5 teams, reducing form development time significantly."
+            ]
+        }
+    ],
+    "volunteer": [],
+    "education": [
+        {
+            "institution": "Amity School of Engineering and Technology",
+            "area": "Computer Science",
+            "studyType": "B.Tech",
+            "startDate": "2018-07",
+            "endDate": "2022-04",
+            "score": "7.31"
+        }
+    ],
+    "awards": [
+        {
+            "title": "Experienced Practitioner",
+            "date": "2022-10",
+            "awarder": "SHL India",
+            "summary": "Recognised for my work in developing Next Generation assessments (Avatar based assessment and Process Monitoring)"
+        }
+    ],
+    "certificates": [],
+    "publications": [],
+    "skills": [
+        {
+            "name": "Programming Languages",
+            "keywords": [
+                "JavaScript",
+                "TypeScript"
+            ]
+        },
+        {
+            "name": "Frameworks and Libraries",
+            "keywords": [
+                "Angular",
+                "ReactJS",
+                "Unity",
+                "Single-SPA",
+                "CapacitorJS"
+            ]
+        },
+        {
+            "name": "Others",
+            "keywords": [
+                "HTML/CSS",
+                "SCSS",
+                "Reactive forms",
+                "RxJS",
+                "Canvas API",
+                "WCAG",
+                "Git",
+                "Bitbucket"
+            ]
+        },
+        {
+            "name": "Concepts & Tools",
+            "keywords": [
+                "Hooks API",
+                "Mobile First Design",
+                "Responsive UI",
+                "Jira",
+                "Functional Programming"
+            ]
+        }
+    ],
+    "languages": [],
+    "interests": [],
+    "references": [],
+    "projects": [
+        {
+            "name": "TC+",
+            "description": "Contributed to the launch of TC Plus, SHL's flagship assessments platform. Built and optimized 100+ assessments using Angular and ReactJS. Improved frontend stability, reduced load times, and integrated proctoring services. The platform now serves over 300 enterprise clients and generates significant revenue.",
+            "url": "https://www.shl.com/shldirect/en/practice-tests/",
+            "keywords": [
+                "Angular",
+                "ReactJS",
+                "HTML",
+                "SCSS",
+                "Javascript",
+                "Reactive forms",
+                "Canvas API",
+                "Hooks API",
+                "Context API",
+                "Responsive UI",
+                "Mobile First Design"
+            ]
+        },
+        {
+            "name": "Avatar-based Assessment",
+            "description": "Independently developed the frontend for a media-rich, avatar-based assessment simulating real-life interviews. Created under the guidance of the Director of AI and Project Manager, currently in user trials with excellent engagement and usability feedback.",
+            "keywords": [
+                "Angular",
+                "HTML",
+                "Javascript",
+                "SCSS",
+                "Reactive forms"
+            ]
+        },
+        {
+            "name": "Process Monitoring",
+            "description": "Co-developed a gamified assessment simulating a process monitoring station. Built using Angular and Canvas API, the tool was optimized for low-end devices to maintain 45+ FPS. Now delivering over 5,000 assessments monthly and contributing to significant revenue growth.",
+            "url": "https://www.shl.com/shldirect/en/practice-tests/",
+            "keywords": [
+                "Angular",
+                "HTML",
+                "SCSS",
+                "Javascript",
+                "Canvas API"
+            ]
+        },
+        {
+            "name": "SIA - AI Screener",
+            "description": "Contributed to SHL’s AI Screener with a focus on chat-based AI for automated candidate interviews. The system combines generative video and NLP-driven chat AI, currently used by 500+ candidates monthly during limited release.",
+            "keywords": [
+                "ReactJS",
+                "Typescript",
+                "Canvas API",
+                "Angular",
+                "Context API",
+                "Hooks API"
+            ]
+        },
+        {
+            "name": "TC+ Microfrontend Transition",
+            "description": "Leading the architectural transformation of TC+ into a microfrontend structure using ReactJS, Angular, and Single-SPA. This shift has improved scalability, accelerated deployment cycles, and simplified assessment onboarding for multiple teams.",
+            "keywords": [
+                "ReactJS",
+                "Typescript",
+                "Angular",
+                "Single-SPA",
+                "RxJS",
+                "Hooks API"
+            ]
+        },
+        {
+            "name": "TC+ Accessibility Initiative",
+            "description": "Achieved AAA-level WCAG compliance across the TC+ platform by implementing keyboard navigation, screen reader support, and focus management features. Enhanced accessibility led to increased client adoption, especially across the EU where compliance is mandatory.",
+            "keywords": [
+                "WCAG",
+                "Angular",
+                "ReactJS",
+                "Reactive forms",
+                "Javascript",
+                "Canvas API",
+                "SCSS",
+                "Hooks API"
+            ]
+        },
+        {
+            "name": "Migration Initiatives",
+            "description": "Led the migration of legacy AngularJS code to Angular and React. Improved performance, maintainability, and reduced security vulnerabilities. Currently mentoring 5 junior developers through the migration of individual assessments.",
+            "keywords": [
+                "ReactJS",
+                "Angular",
+                "Angular JS",
+                "Reactive forms",
+                "Javascript",
+                "SCSS",
+                "Hooks API",
+                "Context API"
+            ]
+        },
+        {
+            "name": "Atom",
+            "description": "Core contributor to Atom, a React library offering input handling and form management using hooks. The library is now adopted by 12 squads across 4 teams, reducing form implementation time and standardizing user experience.",
+            "keywords": [
+                "React",
+                "Zustand",
+                "Typescript"
+            ]
+        }
+    ]
+}

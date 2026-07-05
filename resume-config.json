@@ -1,0 +1,10 @@
+{
+    "frontend": {
+        "source": "resumes/frontend.json",
+        "theme": "jsonresume-theme-architects-portfolio/dist"
+    },
+    "fullstack": {
+        "source": "resumes/fullstack.json",
+        "theme": "jsonresume-theme-architects-portfolio/dist"
+    }
+}

@@ -4,8 +4,8 @@
   "description": "My professional resume built with JSON Resume and resumed",
   "main": "dist/index.html",
   "scripts": {
-    "validate": "resumed validate resume.json",
-    "build": "mkdir -p dist && resumed render resume.json -o dist/index.html -t jsonresume-theme-architects-portfolio/dist"
+    "validate": "node validate.js",
+    "build": "node build.js"
   },
   "dependencies": {
     "jsonresume-theme-architects-portfolio": "^1.1.3",
