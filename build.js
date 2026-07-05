@@ -1,26 +1,38 @@
 const fs = require('fs');
 const { execSync } = require('child_process');
 const path = require('path');
+const crypto = require('crypto');
 
 // 1. Import the updated JSON mapping
 const config = require('./resume-config.json');
 
 const outDir = 'dist';
 const generatedResumes = [];
+let configChanged = false;
+
+// Clean output directory for a fresh build
+if (fs.existsSync(outDir)) {
+    fs.rmSync(outDir, { recursive: true, force: true });
+}
 
 // 2. Iterate over each entry in the JSON file
 Object.entries(config).forEach(([resumeName, details]) => {
-    // 3. Extract the paths from your new JSON object
-    const { source, theme } = details;
-    const outFile = `${resumeName}-resume.html`;
+    // Generate a random path if one doesn't exist yet
+    if (!details.urlPath) {
+        details.urlPath = crypto.randomBytes(8).toString('hex');
+        configChanged = true;
+    }
+
+    const { source, theme, urlPath } = details;
+    const outFile = `${urlPath}.html`;
     const outFilePath = `${outDir}/${outFile}`;
 
-    console.log(`\n⚙️ Building ${resumeName} resume...`);
+    console.log(`\n⚙️ Building ${resumeName} resume (to URL path: /${outFile})...`);
 
     try {
         fs.mkdirSync(outDir, { recursive: true });
 
-        // 4. Run the command using the configured source and theme
+        // 3. Run the command using the configured source and theme
         const command = `npx resumed render ${source} -o ${outFilePath} -t ${theme}`;
         execSync(command, { stdio: 'inherit' });
 
@@ -53,6 +65,13 @@ Object.entries(config).forEach(([resumeName, details]) => {
         process.exit(1);
     }
 });
+
+// Save updated config if new paths were generated
+if (configChanged) {
+    fs.writeFileSync('./resume-config.json', JSON.stringify(config, null, 4) + '\n');
+    console.log('📝 Updated resume-config.json with newly generated random URL paths.');
+}
+
 
 // 5. Generate index.html containing links to all built resumes
 console.log(`\n📄 Generating index.html entrypoint...`);
