@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "jsonresume-theme-architects-portfolio": "^1.1.3",
-    "jsonresume-theme-typewriter-modern": "^1.1.3",
+    "jsonresume-theme-californian-warm": "^0.2.4",
     "resumed": "^6.1.0"
   }
 }

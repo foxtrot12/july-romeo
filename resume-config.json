@@ -11,7 +11,7 @@
     },
     "fullstack-typewriter": {
         "source": "resumes/fullstack.json",
-        "theme": "jsonresume-theme-typewriter-modern/dist",
+        "theme": "jsonresume-theme-californian-warm/dist",
         "urlPath": "3855e646e523"
     }
 }
